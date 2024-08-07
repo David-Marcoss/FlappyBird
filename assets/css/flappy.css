@@ -30,7 +30,7 @@ h1{
     position: relative;
     overflow: hidden;
     width: 1200px;
-    height: 600px;
+    height: 800px;
     border: solid blue;
     background-color: skyblue;
     box-sizing: border-box;
@@ -100,27 +100,26 @@ h1{
 
 .Autor span{
     font-size: 1.3rem;
+    color: rgb(117, 117, 255);
 }
+
 
 
 @media (max-width: 1400px){
     [wm-flappy]{
         width: 850px;
-        height: 500px;
     }
 }
 
 @media (max-width: 633px){
     [wm-flappy]{
         width: 550px;
-        height: 500px;
     }
 }
 
 @media (max-width: 533px){
     [wm-flappy]{
         width: 450px;
-        height: 500px;
     }
 }
 
